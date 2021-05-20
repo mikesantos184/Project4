@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head> <!-- contains title and link
+            Author: Mayky Santos
+            Date Created:  5/12/2021
+            Date Modified: 5/13/2021 -->
+        <title>
+            CMP 128 PROJECT 4 REGISTRATION PAGE
+        </title>
+        <link a href="CSS/reg.css" rel="stylesheet" type="text/css">
+
+        <!--
+
+              <link a href="p2styles.css" rel="stylesheet" type="text/css">
+        -->
+      
+        <h1> LEHMAN COLLEGE 1ST INTERNATIONAL CLOUD COMPUTING CONFERENCE</h1>
+        <h2> On July 15th through July 16th 2021 In Bronx, NY <br>
+            This meeting is available virtual and on site.</h2>
+  <body>
+
+              <header id="main-heading">
+                <img src="images/lc.png" style="max-width: width 250px; max-height: 250px;">
+            
+              </header> 
+                
+    <nav id="main-nav">
+        <!-- Main menu with details, I created links to Index page , Registration, 
+            and Contact Us to this same page 
+        -->
+        <a href="index.html" class="white">Index</a>
+        <a href="registration.html"class="white">Registration</a>
+        <a href="contactus.html"class="white">Contact Us</a>
+    </nav>
+      
+    </head>
+
+    <main>
+      <p1> ENTER YOUR INFORMATION TO ATTEND </p1>
+
+        <div class="reg">
+          <div id="formErrors"> <p id="errors"> </p>
+    
+                      
+            </div>
+            <form action="" id="myForm"> 
+            
+            <fieldset>
+
+            <label>First Name:</label> <br>
+            <input type="text" name="firstname" class="red" id="firstname" placeholder=" First Name"> <br>
+            
+            <label>Last Name:</label> <br>
+            <input type="text" name="lastname" class="red" id="lastname" placeholder=" Last Name"> <br>
+            
+            <label>E-mail</label> <br>
+            <input type="text" email="email" class="red" id="email" placeholder="Your E-mail"> <br>
+
+            <label>Create Password</label> <br>
+            <input type="text" name="password" class="red" id="passwrord" placeholder="Create Password"> <br>
+
+            <label>Confirm Password</label> <br>
+            <input type="text" name="confirmpw" class="red" id="confirmpw" placeholder="Confirm Password"> <br>
+            
+            <label>Phone Number</label> <br>
+            <input type="tel" phone="phone" class="red" id="phone" placeholder="Phone Number"> <br>
+            
+            <label>Organization</label> <br>
+            <input type="text" org="org" class="red" id="org" placeholder="Organization"> <br>
+
+            <label for="country" class="lables">Country</label> <br>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="brazil">Brazil</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select> 
+            <br> <br> <p id="selectregtype"> <b><i> SELECT REGISTRATION TYPE </i></b></p>
+
+            <label for="radioID" class="radio"> <input type="radio" 
+              name="myradioField" id="radioID" class="radio-input">
+              <div class="radiodiv"></div>
+              Author ($400)</label>
+
+            <label for="radioP" class="radio"> <input type="radio" 
+              name="myradioField" id="radioP" class="radio-input">
+              <div class="radiodiv"></div>
+              Participant ($300) </label>
+
+            <label for="radioS" class="radio"> <input type="radio" 
+              name="myradioField" id="radioS" class="radio-input">
+              <div class="radiodiv"></div>
+              Student ($100) </label> 
+              <br> <br>
+
+              <label>Enter Discount Code:</label> <br>
+            <input type="text" name="discount" class="discount" id="discount" placeholder="Discount Code"> <br>
+
+            <hr />
+            <br>
+            <input type="Submit" id="submit" value="Register"> 
+        </div>
+        
+        
+            
+
+
+
+
+           
+                    <label for="subject">Subject</label>
+                  </div>
+                  <div>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                  </div>
+                </div>
+                <div>
+                  <input type="submit" value="Comment">
+                </div>
+                </fieldset>
+              </form>
+            </div>
+            
+            
+
+
+        </form>
+    
+      
+    </main>
+     
+        
+<!--
+        <div id="userreg">
+          <div id="">
+            
+              USER INPUTS HIS FIRST AND LAST NAME.
+            -->
+            
+        </div>
+        <footer id="footer"> This is LEHMAN COLLEGE 1ST INTERNATIONAL CLOUD COMPUTING CONFERENCE <br> <br>
+          Join us on July 15th through July 16th 2021 In Bronx, NY <br>
+              If you can't make it in person, the meeting is available virtually and on site.<br>
+              DONT WAIT AND SIGN UP..!! <hr />
+
+        <a href="#main-heading" class="white"> Return to Top</a>
+        <a href="#myForm"class="white"> Return to Form</a>
+
+
+        </footer>
+
+      </body>
+
+      <script src="JS/regJS.js"></script>
+
+      </html>
+
+
+
+
+        
